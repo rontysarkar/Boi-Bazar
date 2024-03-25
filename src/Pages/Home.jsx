@@ -1,15 +1,19 @@
-import bookImg from '../assets/images/book.png'
+
+import useBooksData from '../Hooks/useBooksData';
+import BookCard from '../components/BookCard';
+import Hero from '../components/Hero';
+
 const Home = () => {
+    const {data} = useBooksData();
+    
+    
     return (
         <div>
-            <div className="hero min-h-[70vh] mt-12 rounded-3xl bg-base-200">
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img  src={bookImg} className="max-w-sm  rounded-lg " />
-                    <div className="w-1/2">
-                        <h1 className="text-6xl font-bold align-baseline  ">Books to freshen up <span  >your bookshelf</span></h1>
-                        <button className="btn bg-green-500 mt-7 text-white text-lg">View The List</button>
-                    </div>
-                </div>
+            <Hero/>
+            <div className='grid lg:grid-cols-3 gap-6 mt-10 '>
+            {
+                data.map(book => <BookCard key={book.bookId} book={book} />)
+            }
             </div>
         </div>
     );
