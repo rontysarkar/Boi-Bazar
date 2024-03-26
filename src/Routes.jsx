@@ -4,11 +4,13 @@ import Home from "./Pages/Home";
 import ListedBooks from "./Pages/ListedBooks";
 import PagesToRead from "./Pages/PagesToRead";
 import BookDetails from "./components/BookDetails";
+import Error from "./components/Error";
 
 export const router = createBrowserRouter([
     {
       path: "/",
       element: <MainLayOut/>,
+      errorElement:<Error/>,
       children: [
         {
           path: '/',

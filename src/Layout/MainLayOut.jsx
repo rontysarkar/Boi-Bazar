@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import './MainLayOUt.css'
+import { Toaster } from "react-hot-toast";
 
 const MainLayOut = () => {
     return (
@@ -9,6 +10,7 @@ const MainLayOut = () => {
                 <NavBar />
             </div>
             <Outlet/>
+            <Toaster />
         </div>
     );
 };
