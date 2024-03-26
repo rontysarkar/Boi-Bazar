@@ -4,7 +4,7 @@ import './MainLayOUt.css'
 
 const MainLayOut = () => {
     return (
-        <div className="container mx-auto px-20 playfair">
+        <div className="container mx-auto px-20 ">
             <div className="wark">
                 <NavBar />
             </div>
