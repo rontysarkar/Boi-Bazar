@@ -1,16 +1,17 @@
-import { getWishListInfo } from "../utility/getWishListInfo";
+import { useOutletContext } from "react-router-dom";
 import ReadBookCard from "./ReadBookCard";
 
 const WishList = () => {
-    const localStorageData = getWishListInfo();
-    
+
+    const [listedBooks] = useOutletContext()
+
     return (
         <div>
             {
-                localStorageData.length == 0 ? <h1 className="text-5xl mt-10 font-bold opacity-60">Your WishList Book is : 0</h1> : ''
+                listedBooks.length == 0 ? <h1 className="text-5xl mt-10 font-bold opacity-60">Your WishList Book is : 0</h1> : ''
             }
             {
-                localStorageData.map(book=><ReadBookCard key={book.bookId} book={book} />)
+                listedBooks.map(book => <ReadBookCard key={book.bookId} book={book} />)
             }
         </div>
     );

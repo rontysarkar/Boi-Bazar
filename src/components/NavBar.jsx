@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import bookSvg from '../../public/books.svg'
+import bookSvg from '../assets/bok.svg'
 
 
 const NavBar = () => {
