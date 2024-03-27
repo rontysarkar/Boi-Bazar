@@ -50,12 +50,12 @@ const handleWishListBtn = () =>{
 
 
     return (
-        <div className=" min-h-[80vh] mt-12 rounded-3xl ">
+        <div className=" lg:min-h-[80vh] mt-12 rounded-3xl ">
             <div className="hero-content flex-col lg:flex-row justify-between  ">
-                <div className="bg-base-200 h-[812px] w-3/6 flex items-center justify-center rounded-xl ">
+                <div className="bg-base-200 lg:h-[812px] w-[90%] lg:w-3/6 flex items-center justify-center rounded-xl ">
                     <img src={image} className="  h-[812px] " />
                 </div>
-                <div className="w-1/2 space-y-5  ">
+                <div className="w-[90%] lg:w-1/2 space-y-5  ">
                     <h1 className="text-4xl font-bold ">{bookName}</h1>
                     <h5 className="text-xl font-semibold">By : {author}</h5>
                     <hr />
