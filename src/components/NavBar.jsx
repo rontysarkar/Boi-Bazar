@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import bookSvg from '../../public/books.svg'
 
 
 const NavBar = () => {
@@ -15,7 +16,7 @@ const NavBar = () => {
                         <li><NavLink to={'/pagesToRead'} >Pages To Read</NavLink></li>
                     </ul>
                 </div>
-                <a className="btn  btn-ghost text-3xl text-secondary font-bold ">Boi<span className="text-primary">Bazar</span></a>
+                <a className="btn  btn-ghost  text-xl lg:text-3xl text-secondary font-bold ">Boi<img className="w-6" src={bookSvg} alt="" /> <span className="text-primary">Bazar </span></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal space-x-10 text-lg font-medium">
@@ -42,7 +43,7 @@ const NavBar = () => {
                     } >Pages To Read</NavLink></li>
                 </ul>
             </div>
-            <div className="navbar-end space-x-4">
+            <div className="navbar-end hidden lg:flex space-x-4">
                 <a className="btn bg-green-400 text-white">Sign In</a>
                 <a className="btn bg-[#59c6d2] text-white">Sign Up</a>
             </div>

@@ -1,11 +1,10 @@
 /* eslint-disable react/prop-types */
-import { Bar, BarChart, CartesianGrid, Cell, Legend, Tooltip, XAxis, YAxis } from "recharts";
+import { Bar, BarChart, CartesianGrid, Cell, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { getReadInfo } from "../utility/getReadInfo";
 
 
 const PagesToRead = () => {
     const chartData = getReadInfo();
-    console.log(chartData)
     const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
     const getPath = (x, y, width, height) => {
         return `M${x},${y + height}C${x + width / 3},${y + height} ${x + width / 2},${y + height / 3}
@@ -25,7 +24,7 @@ const PagesToRead = () => {
             return (
                 <div className="custom-tooltip bg-white font-bold">
                     <p className="label">{`${label} : ${payload[0].value}`}</p>
-                    
+
                 </div>
             );
         }
@@ -38,11 +37,12 @@ const PagesToRead = () => {
             {
                 chartData.length == 0 ? <h1 className="text-5xl mt-10 font-bold opacity-60">Your Read Book is : 0</h1> : ''
             }
-            <div className="min-h-[80vh] flex items-center justify-center">
+            <div className=" min-h-[80vh]  flex items-center justify-center ">
+                <div  style={{ width: '90%', height: 550 }} >
                 {
-                    chartData && chartData.length > 0 && (<BarChart
-                        width={900}
-                        height={600}
+                    chartData && chartData.length > 0 && ( <ResponsiveContainer> <BarChart
+
+                        
                         data={chartData}
                         margin={{
 
@@ -58,8 +58,9 @@ const PagesToRead = () => {
                                 <Cell key={`cell-${index}`} fill={colors[index % 20]} />
                             ))}
                         </Bar>
-                    </BarChart>)
+                    </BarChart></ResponsiveContainer>)
                 }
+                </div>
             </div>
         </div>
     );

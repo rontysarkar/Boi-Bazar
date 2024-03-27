@@ -19,7 +19,7 @@ const ListedBooks = () => {
                 </details>
             </div>
 
-            <div className="flex items-center -mx-4 overflow-x-auto overflow-y-hidden sm:justify-start flex-nowrap  text-gray-100">
+            <div className="flex items-center lg:-mx-4 overflow-x-auto overflow-y-hidden sm:justify-start flex-nowrap  text-gray-100">
                 <Link to='' onClick={() => setIndex(1)}  className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 ${ index === 1 ? 'border border-b-0' : 'border-b'} rounded-t-lg border-gray-400 text-gray-50`}>
                     <span className="text-gray-500 font-bold text-xl">Read Books</span>
                 </Link>

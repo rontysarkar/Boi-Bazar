@@ -5,7 +5,7 @@ import { Toaster } from "react-hot-toast";
 
 const MainLayOut = () => {
     return (
-        <div className="container mx-auto px-20 ">
+        <div className="container mx-auto lg:px-20 ">
             <div className="wark">
                 <NavBar />
             </div>

@@ -9,9 +9,10 @@ const BookCard = ({ book }) => {
     const {bookId, bookName, author, image, tags, category, rating } = book;
 
     return (
-        <Link to={`/bookDetails/${bookId}`}>
-            <div className="card card-compact  bg-base-100 border p-6 mx-auto cursor-pointer ">
-                <figure className="w-[350px] h-56 border mx-auto  rounded-xl bg-gray-50 p-4">
+        <div className="mx-auto">
+            <Link className="mx-auto" to={`/bookDetails/${bookId}`}>
+            <div className="card card-compact bg-base-100 border p-6 mx-auto cursor-pointer ">
+                <figure className="lg:w-[350px] lg:h-56 border mx-auto  rounded-xl bg-gray-50 p-4">
                     <img className=" w-[90%] h-[90%]  " src={image} alt="Shoes" />
                 </figure>
                 <div className='flex my-4 gap-4'>
@@ -33,6 +34,7 @@ const BookCard = ({ book }) => {
                 </div>
             </div>
         </Link>
+        </div>
     );
 };
 
