@@ -12,7 +12,7 @@ const NavBar = () => {
                     </div>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><NavLink to={'/'}>Home</NavLink></li>
-                        <li><NavLink to={'/listedBooks'}>Listed Books</NavLink></li>
+                        <li><NavLink to={'/listedBooks'} >Listed Book</NavLink></li>
                         <li><NavLink to={'/latestBook'} >Latest Book</NavLink></li>
                         <li><NavLink to={'/pagesToRead'} >Pages To Read</NavLink></li>
                         <li><NavLink to={'/aboutUs'} >About Us</NavLink></li>
