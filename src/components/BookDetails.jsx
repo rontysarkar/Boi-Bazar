@@ -50,18 +50,18 @@ const handleWishListBtn = () =>{
 
 
     return (
-        <div className=" lg:min-h-[80vh] mt-12 rounded-3xl ">
-            <div className="hero-content flex-col lg:flex-row justify-between  ">
-                <div className="bg-base-200 lg:h-[812px] w-[90%] lg:w-3/6 flex items-center justify-center rounded-xl ">
-                    <img src={image} className="  h-[812px] " />
+        <div className="min-h-[80vh] max-h-96  mt-12 rounded-3xl  ">
+            <div className="hero-content flex-col lg:flex-row justify-between   ">
+                <div className="  bg-base-200 lg:h-[712px] w-[90%] lg:w-3/6 flex items-center justify-center rounded-xl ">
+                    <img src={image} className="  h-[712px] " />
                 </div>
-                <div className="w-[90%] lg:w-1/2 space-y-5  ">
+                <div className="w-[90%] lg:w-1/2 space-y-4  ">
                     <h1 className="text-4xl font-bold ">{bookName}</h1>
                     <h5 className="text-xl font-semibold">By : {author}</h5>
                     <hr />
                     <h2 className="text-xl font-semibold">{category}</h2>
                     <hr />
-                    <p className="text-lg"> <span className="text-xl font-bold">Review</span> :{review}</p>
+                    <p className="text-lg"> <span className="text-xl font-bold">Review</span> :{review.slice(0,540)}</p>
                     <div className="flex gap-4 ">
                         <div className="flex items-center gap-4 ">
                             <h1 className="text-xl font-bold">Tag</h1>

@@ -26,7 +26,6 @@ const ListedBooks = () => {
             setListedBook(localStorageWishData)
         }
 
-        console.log(pathname)
     }, [pathname])
 
 

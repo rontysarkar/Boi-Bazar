@@ -1,83 +1,5 @@
 [
     {
-      "bookId": 1,
-      "bookName": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "image": "https://i.ibb.co/XzVLmPr/il-570x-N-3875706413-quwk-removebg-preview.png",
-      "review": "The Great Gatsby, penned by F. Scott Fitzgerald, is a mesmerizing tale of love, wealth, and the American Dream. Set against the backdrop of the roaring 1920s, the story follows the enigmatic Jay Gatsby and his pursuit of the beautiful Daisy Buchanan. Fitzgerald's prose captivates readers with its lyrical elegance, while exploring themes of ambition, decadence, and the hollowness of materialism. Through vivid imagery and complex characters, The Great Gatsby remains a timeless classic that continues to resonate with readers, offering profound insights into the human condition.",
-      "totalPages": 218,
-      "rating": 4.5,
-      "category": "Classic Fiction",
-      "tags": ["Romance", "Tragedy"],
-      "publisher": "Scribner",
-      "yearOfPublishing": 1925
-    },
-    {
-      "bookId": 2,
-      "bookName": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "image": "https://i.ibb.co/YjwQLS7/to-kill-mockingbird-0-6246f05d04644ae5ba1a02409d943a13-removebg-preview.png",
-      "review": "Harper Lee's To Kill a Mockingbird is an enduring masterpiece that tackles themes of racial injustice and moral growth. Through the innocent eyes of young Scout Finch, readers are transported to the racially-charged atmosphere of the 1930s American South. The novel's poignant narrative, rich character development, and powerful social commentary make it a timeless classic. As Atticus Finch defends a black man falsely accused of raping a white woman, the novel challenges readers to confront prejudice and injustice, while celebrating the resilience of the human spirit.",
-      "totalPages": 281,
-      "rating": 4.7,
-      "category": "Classic Fiction",
-      "tags": ["Social Justice", "Coming-of-Age"],
-      "publisher": "J. B. Lippincott & Co.",
-      "yearOfPublishing": 1960
-    },
-    {
-      "bookId": 3,
-      "bookName": "1984",
-      "author": "George Orwell",
-      "image": "https://i.ibb.co/kB6Lfqn/1222-removebg-preview.png",
-      "review": "George Orwell's 1984 is a chilling dystopian vision of a totalitarian society where individuality is suppressed and truth is manipulated by those in power. Set in a world of perpetual war and government surveillance, the novel follows protagonist Winston Smith as he rebels against the oppressive regime of Big Brother. Through its haunting portrayal of surveillance, propaganda, and thought control, 1984 remains a stark warning against the dangers of authoritarianism and the erosion of freedom. Orwell's prescient themes continue to resonate in today's world, making 1984 an essential read for understanding the perils of unchecked authority.",
-      "totalPages": 328,
-      "rating": 4.6,
-      "category": "Science Fiction",
-      "tags": ["Dystopian", "Political"],
-      "publisher": "Secker & Warburg",
-      "yearOfPublishing": 1949
-    },
-    {
-      "bookId": 4,
-      "bookName": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "image": "https://i.ibb.co/DYZM1BY/7eb65ef202903caf5d6457179d33151d-removebg-preview.png",
-      "review": "Jane Austen's Pride and Prejudice is a delightful comedy of manners that explores themes of love, marriage, and social class in Georgian England. Through the spirited character of Elizabeth Bennet and the proud Mr. Darcy, Austen crafts a story of wit, irony, and romance that continues to enchant readers today. Set against the backdrop of a society governed by strict social conventions, Pride and Prejudice offers a timeless critique of prejudice and the importance of recognizing one's own flaws. With its sparkling dialogue and memorable characters, Austen's masterpiece remains a cornerstone of English literature.",
-      "totalPages": 279,
-      "rating": 4.8,
-      "category": "Classic Fiction",
-      "tags": ["Romance", "Satire"],
-      "publisher": "T. Egerton, Whitehall",
-      "yearOfPublishing": 1813
-    },
-    {
-      "bookId": 5,
-      "bookName": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "image": "https://i.ibb.co/vxVb6dY/png-clipart-publishing-literature-book-the-catcher-in-the-rye-hachette-livre-unsolved-celebrity-deat.png",
-      "review": "J.D. Salinger's The Catcher in the Rye is a poignant portrayal of teenage angst and alienation in post-war America. Narrated by the disillusioned Holden Caulfield, the novel follows his journey through New York City as he grapples with feelings of isolation and disillusionment. Salinger's candid exploration of adolescence, identity, and societal hypocrisy resonates with readers of all ages, making The Catcher in the Rye a timeless coming-of-age classic. With its authentic voice and raw emotion, Salinger's novel continues to captivate generations of readers, offering a powerful reflection on the human condition.",
-      "totalPages": 224,
-      "rating": 4.4,
-      "category": "Classic Fiction",
-      "tags": ["Coming-of-Age", "Existentialism"],
-      "publisher": "Little, Brown and Company",
-      "yearOfPublishing": 1951
-    },
-    {
-      "bookId": 6,
-      "bookName": "Moby-Dick",
-      "author": "Herman Melville",
-      "image": "https://i.ibb.co/Y0w0wBN/mdk-hr-no-bacl.webp",
-      "review": "Herman Melville's Moby-Dick is an epic adventure tale that explores themes of obsession, fate, and the human condition. Set aboard the whaling ship Pequod, the novel follows the monomaniacal Captain Ahab as he seeks revenge on the elusive white whale, Moby Dick. Through its rich symbolism, philosophical digressions, and vivid descriptions of the sea, Melville's masterpiece transcends its genre, offering readers a profound meditation on the nature of existence. Moby-Dick's timeless themes and lyrical prose continue to inspire readers and scholars alike, cementing its status as one of the greatest American novels ever written.",
-      "totalPages": 624,
-      "rating": 4.3,
-      "category": "Adventure Fiction",
-      "tags": ["Sea Adventure", "Symbolism"],
-      "publisher": "Harper & Brothers",
-      "yearOfPublishing": 1851
-    },
-    {
       "bookId": 7,
       "bookName": "The Midnight Library",
       "author": "Matt Haig",
@@ -168,4 +90,5 @@
         "publisher": "Dark Dreams Publishing",
         "yearOfPublishing": 2024
       }
-  ]
+
+]
