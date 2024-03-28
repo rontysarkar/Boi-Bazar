@@ -4,7 +4,7 @@
 Welcome to Boi Bazar, your one-stop destination for all things books!
 
 
-### Live Site URL: https://valuable-writing1.surge.sh/
+### Live Site URL: https://dapper-kataifi-cd1e09.netlify.app/
 
 
 
