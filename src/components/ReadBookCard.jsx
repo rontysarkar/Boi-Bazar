@@ -25,7 +25,7 @@ const ReadBookCard = ({ book }) => {
                             </div>
                         </div>
                         <div>
-                            <h1 className="text-xl flex items-center gap-2"><CiLocationOn /> Year of Publishing:{yearOfPublishing}</h1>
+                            <h1 className="text-xl flex items-center gap-2"><CiLocationOn /> Year of Publishing:<span className="font-semibold"> {yearOfPublishing} </span> </h1>
                         </div>
                     </div>
                     <div className="lg:flex items-center gap-8 text-xl space-y-2">

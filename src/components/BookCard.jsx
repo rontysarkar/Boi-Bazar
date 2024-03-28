@@ -29,7 +29,7 @@ const BookCard = ({ book }) => {
                     <h1>{category}</h1>
                     <div className="flex justify-center items-center gap-2">
                         <p >{rating}</p>
-                        <CiStar className="text-xl mt-1" />
+                        <CiStar className="text-xl mt-1 " />
                     </div>
                 </div>
             </div>
